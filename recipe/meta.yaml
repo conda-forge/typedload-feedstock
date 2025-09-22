@@ -1,5 +1,5 @@
 {% set name = "typedload" %}
-{% set version = "2.37" %}
+{% set version = "2.38" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/typedload-{{ version }}.tar.gz
-  sha256: 0cd60fb9fb2119e00643bc302ece6700da3146d145a6c45a39e2ec8151d740b1
+  sha256: 9ba540d8d9d56408569cee68d76a1edbbb71ea9e4a5464e667b876be7f20d164
 
 build:
   noarch: python
